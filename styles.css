@@ -55,3 +55,11 @@
 .button.danger:focus{
     outline: none;
 }
+.button.small{
+    padding: 4px 8px 4px 8px;
+    font-size: 14px;
+    border-radius: 3px;
+}
+
+
+   
