@@ -9,5 +9,11 @@
     color: white;
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
-    list-style-type: none;
+    text-decoration: none;
+    border: 1px hsl(40, 100%, 45%)  ;
 }
+.button:hover{
+    background-color: hsl(40, 100%, 35%);
+    border: 1px hsl(40, 100%, 35%)  ;
+}
+
