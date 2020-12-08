@@ -39,3 +39,19 @@
     outline: none;
 }
 
+
+.button.danger{
+    background-color: hsl(0, 100%, 45%);
+    border: 1px hsl(0, 100%, 45%)  ;
+}
+.button.danger:hover{
+    background-color: hsl(0, 100%, 35%);
+    border: 1px hsl(0, 100%, 35%)  ;
+}
+.button.danger:active{
+    background-color: hsl(0, 100%, 40%);
+    border: 1px hsl(0, 100%, 40%)  ;
+}
+.button.danger:focus{
+    outline: none;
+}
