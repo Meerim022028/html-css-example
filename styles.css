@@ -23,6 +23,19 @@
 .button:focus{
     outline: none;
 }
-
-
+.button.ok{
+    background-color: hsl(110, 100%, 45%);
+    border: 1px hsl(110, 100%, 45%)  ;
+}
+.button.ok:hover{
+    background-color: hsl(110, 100%, 35%);
+    border: 1px hsl(110, 100%, 35%)  ;
+}
+.button.ok:active{
+    background-color: hsl(110, 100%, 40%);
+    border: 1px hsl(110, 100%, 40%)  ;
+}
+.button:focus{
+    outline: none;
+}
 
