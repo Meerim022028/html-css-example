@@ -1,39 +1,46 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+
+:root {
+    --hue-default:200;
+    --hue-ok:110;
+    --hue-danger:0;
+}
 
 .button{
     display: inline-block;
     padding: 6px 12px 6px 12px;
     border-radius: 4px;
     font-size: 16px;
-    background-color: hsl(40, 100%, 45%);
+    background-color: hsl(var(--hue-default), 100%, 45%);
     color: white;
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
     text-decoration: none;
-    border: 1px hsl(40, 100%, 45%)  ;
+    border: 1px hsl(var(--hue-default), 100%, 45%)  ;
 }
 .button:hover {
-    background-color: hsl(40, 100%, 35%);
-    border: 1px hsl(40, 100%, 35%)  ;
+    background-color: hsl(var(--hue-default), 100%, 35%);
+    border: 1px hsl(var(--hue-default), 100%, 35%)  ;
 }
 .button:active {
-    background-color: hsl(40, 100%, 40%);
-    border: 1px hsl(40, 100%, 40%);
+    background-color: hsl(var(--hue-default), 100%, 40%);
+    border: 1px hsl(var(--hue-default), 100%, 40%);
 }
 .button:focus{
     outline: none;
 }
 .button.ok{
-    background-color: hsl(110, 100%, 45%);
-    border: 1px hsl(110, 100%, 45%)  ;
+    background-color: hsl(var(--hue-ok), 100%, 45%);
+    border: 1px hsl(var(--hue-ok), 100%, 45%)  ;
 }
 .button.ok:hover{
-    background-color: hsl(110, 100%, 35%);
-    border: 1px hsl(110, 100%, 35%)  ;
+    background-color: hsl(var(--hue-ok), 100%, 35%);
+    border: 1px hsl(var(--hue-ok), 100%, 35%)  ;
 }
 .button.ok:active{
-    background-color: hsl(110, 100%, 40%);
-    border: 1px hsl(110, 100%, 40%)  ;
+    background-color: hsl(var(--hue-ok), 100%, 40%);
+    border: 1px hsl(var(--hue-ok), 100%, 40%)  ;
 }
 .button:focus{
     outline: none;
